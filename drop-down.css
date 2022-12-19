@@ -1,0 +1,63 @@
+/* Styles for giving life to the drop-down menu */
+/* Author: Rohit Mehta */
+
+.drop-down {
+  position: relative;
+  display: inline-block;
+}
+
+.drop-down__header {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.drop-down__header__title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.drop-down__header__icon {
+    font-size: 1.25rem;
+    color: #333;
+    margin: 0 0 0 0.5rem;
+}
+
+.drop-down__body {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    display: none;
+    width: 100%;
+    padding: 0.5rem 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+}
+
+.drop-down__body__item {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+}
+
+.drop-down__body__item:hover {
+    background-color: #eee;
+}
+
+.drop-down__body__item:active {
+    background-color: #ddd;
+}
+
+.drop-down:hover .drop-down__body {
+    display: block;
+}
