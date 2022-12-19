@@ -6,7 +6,7 @@ Inspired by [The Odin Project](https://www.theodinproject.com/lessons/node-path-
 
 ## Components
 
-- Dropdown Menu
-- Mobile Menu
-- Image Slider
-- Modal
+- [x] Dropdown Menu
+- [ ] Mobile Menu
+- [ ] Image Slider
+- [ ] Modal
