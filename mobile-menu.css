@@ -1,0 +1,42 @@
+/* Styles for Mobile Tabbed Menu */
+/* Author: Rohit Mehta */
+
+.mobile-menu {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.mobile-menu__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    cursor: pointer;
+}
+
+.mobile-menu__header__item {
+    width: min(100%, 18rem);
+    padding: 0.5rem;
+    text-align: center;
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.selected_tab {
+    background-color: #e0e0e0;
+}
+
+.mobile-menu__body {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    padding: 0.5rem;
+    position: relative;
+}
+
+.mobile-menu__body__item {
+    display: none;
+}
+
+.selected_item {
+    display: block;
+}
