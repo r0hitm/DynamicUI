@@ -1,0 +1,42 @@
+/* Image Slider */
+/* Author: Rohit Mehta */
+
+
+img {
+    width: 300px;
+    height: 200px;
+    /* position: absolute; */
+}
+
+.image-slider {
+    width: 300px;
+    height: 200px;
+    position: relative;
+}
+
+.image-slider__left, .image-slider__right {
+    z-index: 5;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.521);
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.image-slider__left {
+    left: 0;
+}
+
+.image-slider__right {
+    right: 0;
+}
+
+.image-slider__body {
+    overflow: hidden;
+}
