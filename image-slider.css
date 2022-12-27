@@ -1,11 +1,14 @@
 /* Image Slider */
 /* Author: Rohit Mehta */
 
-
-img {
+.carousel_img {
     width: 300px;
     height: 200px;
-    /* position: absolute; */
+    display: none;
+}
+
+.active {
+    display: block;
 }
 
 .image-slider {
